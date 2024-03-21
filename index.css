@@ -43,7 +43,7 @@ a{
     align-items: center;
 
     margin: 10px auto;
-    margin-right: 8px;
+    margin-right: 5px;
     column-width: 30%;
     
     background-color: antiquewhite;
@@ -53,6 +53,7 @@ a{
     background-color: antiquewhite;
     padding: 20px;
     margin: 10px auto;
+    margin-left: 8px;
     column-width: 70%;
 }
 .item{
