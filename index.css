@@ -35,27 +35,24 @@ a{
     display: flex;
     justify-content: space-evenly; /* Distribute columns equally */
 }
-.centre{
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-}
 .column1 {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
-    background-color: antiquewhite;
-    padding: 20px;
-    margin: 10px;
+
+    margin: 10px auto;
+    margin-right: 8px;
     column-width: 30%;
+    
+    background-color: antiquewhite;
 }
 .column2 {
     flex: 3;
     background-color: antiquewhite;
     padding: 20px;
-    margin: 10px;
+    margin: 10px auto;
     column-width: 70%;
 }
 .item{
@@ -71,20 +68,19 @@ a{
     padding: 5px;
     border: 2px solid rgb(55, 11, 11);
 }
-
 .imagebox{
     width: 250px;
     height: 167px;
     padding: 10px;
 }
 
-.column1 .item{
+.centre{
     width: 100%;
-    padding: 10px;
-    margin: 5px;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Experimental CSS stuff */
+/* IMAGE STUFF */
 
 .expand-dong{
     transition: transform 0.5s ease;
