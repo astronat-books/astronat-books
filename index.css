@@ -19,7 +19,7 @@ a{
 
 /* Sections */
 
-.header{
+.page-header{
     text-align: center;
     width: 100%;
     background-color: rgb(55, 11, 11);
@@ -28,51 +28,56 @@ a{
     padding: 1px;
 }
 
+.textbox{
+    margin: 10px;
+}
+
 /* Containers */
 
-.columns {
+.main {
     width: 100%;
     display: flex;
     justify-content: space-evenly; /* Distribute columns equally */
+    /* background-color: aqua; */
 }
+
 .column1 {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
+    background-color: antiquewhite;
     margin: 10px auto;
     margin-right: 5px;
-    column-width: 30%;
-    
-    background-color: antiquewhite;
 }
+
 .column2 {
     flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: antiquewhite;
-    padding: 20px;
     margin: 10px auto;
-    margin-left: 8px;
-    column-width: 70%;
+    margin-left: 5px;
 }
+
 .item{
     flex: 1;
     background-color: rgb(55, 11, 11);
     color: antiquewhite;
     height: fit-content;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
 }
-.quotebox{
-    text-align: center;
-    padding: 5px;
-    border: 2px solid rgb(55, 11, 11);
+
+.column2 .item{
+    height:fit-content
 }
-.imagebox{
-    width: 250px;
-    height: 167px;
-    padding: 10px;
+
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
 }
 
 .centre{
@@ -81,11 +86,33 @@ a{
     text-align: center;
 }
 
-.heck{
-    padding: 20px;
+.quotebox{
+    text-align: center;
+    padding: 5px;
+    border: 2px solid rgb(55, 11, 11);
 }
 
-/* IMAGE STUFF */
+.imagebox:not(:last-child){
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 180px;
+    padding: 5px;
+    padding-bottom: 0px;
+    margin: 5px;
+}
+.imagebox:last-child{
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 180px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.imagebox img{
+    width: 100%;
+}
 
 .expand-dong{
     transition: transform 0.5s ease;
