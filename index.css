@@ -13,7 +13,7 @@ h1, h2{
 a{
     color: rgb(55, 11, 11);
 }
-.item a, .header a{
+.item a, .page-header a{
     color: antiquewhite;
 }
 
