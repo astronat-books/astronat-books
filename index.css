@@ -90,6 +90,7 @@ a{
     text-align: center;
     padding: 5px;
     border: 2px solid rgb(55, 11, 11);
+    margin: 10px;
 }
 
 .imagebox:not(:last-child){
