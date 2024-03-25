@@ -49,6 +49,7 @@ a{
     background-color: antiquewhite;
     margin: 10px auto;
     margin-right: 5px;
+    margin-bottom: 0px;
 }
 
 .column2 {
@@ -59,6 +60,7 @@ a{
     background-color: antiquewhite;
     margin: 10px auto;
     margin-left: 5px;
+    margin-bottom: 0px;
 }
 
 .item{
